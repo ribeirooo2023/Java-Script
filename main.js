@@ -6,10 +6,11 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 listaDeTeclas[0].onclick = tocaSomPom
 
-while(){
-    listaDeTeclas[0].onclick = tocasomPom;
+while(contador < 9){
+    listaDeTeclas[contador].onclick = function(){
+        tocaSom('#som_tecla_clap');
+    }
+  contador =  contador +
 }
+    
 
-listaDeTeclas[1].onclick = tocaSomClap;
-listaDeTeclas[2].onclick = tocaSomTim;
-listaDeTeclas[3].onclick = tocaSomPuff;

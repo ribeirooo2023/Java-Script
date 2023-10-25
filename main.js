@@ -4,13 +4,16 @@ function tocaSomPom(){
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-listaDeTeclas[0].onclick = tocaSomPom
+
 
 while(contador < 9){
+  
+    const instrumento =listaDeTeclas [contador].classList
     listaDeTeclas[contador].onclick = function(){
-        tocaSom('#som_tecla_clap');
+    const tecla = listaDeTeclas[contador];
     }
-  contador =  contador +
+}  listaDeTeclas[contador].onclick = function(){
+    
 }
     
 
